@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<title>myTapp Coffee</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./bower/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body ng-app="cafeapp" class="main">
+
+	<div ng-view></div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="./bower/angular/angular.min.js"></script>
+	<script src="./bower/angular-route/angular-route.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/controllers/LoginController.js"></script>
+	<script src="./js/controllers/CadastroController.js"></script>
+	<script src="./js/controllers/FazerCafeController.js"></script>
+	<script src="./services/cafeValues.js"></script>
+
+	<script type="text/javascript">
+		
+		var socket = new io();
+				
+	</script>
+</body>
+</html>

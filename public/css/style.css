@@ -1,0 +1,52 @@
+.main {
+	background-color: #F4F0CB;
+}
+
+.header {
+	padding: 10px 0;
+	margin-bottom: 30px;
+	background-color: #44251C;
+}
+
+.logo {
+	width: 150px;
+}
+
+.cafe {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cup {
+	margin-bottom: 20px;
+	height: auto;
+	width: 200px;
+	display: inline-block;
+}
+
+.liquid {
+	height: 0px;
+	width: 199px;
+	background-color: #30200D;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+	transition: height 3s;
+
+}
+
+.liquid.anime {
+	height: 80px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.user {
+	color: #f44336;
+}
